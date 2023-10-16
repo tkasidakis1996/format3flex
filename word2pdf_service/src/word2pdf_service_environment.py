@@ -1,0 +1,12 @@
+import os 
+
+WORD2PDF_SVC_HOME = os.getenv('WORD2PDF_SVC_HOME')
+
+WORD2PDF_SVC_SOURCE = WORD2PDF_SVC_HOME + '/src'
+
+WORD2PDF_SVC_TASK = WORD2PDF_SVC_HOME + '/src/word2pdf'
+
+
+#WORD2PDF_SVC_LOG_CONF = WORD2PDF_SVC_HOME+'/config/log_conf.ini'
+
+#WORD2PDF_SVC_LOG_FILE = RECOGNITION_SVC_HOME+'/logs/RecognitionService.log'
